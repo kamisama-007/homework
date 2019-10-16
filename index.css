@@ -1,0 +1,132 @@
+@media screen and (max-width: 900px)
+{
+	body
+	{
+        overflow: hidden;
+        position: relative;
+        min-height: 485px;
+	}
+
+    .bg{
+	min-width: 0;
+	height: 67%;
+    }
+    .n{
+	width: 100%;
+	height: 0;
+    }
+    .choose{
+    display: none;
+    }
+    .gong{
+        width: 50px;
+        height: 50px;
+    	border-radius: 7px;
+        background-size: contain;
+    	margin: 20px;
+    }
+    .name{
+    	line-height: 85px;
+    }
+    .download{
+    	width: 100%;
+    	height: 100%;
+    }
+    .c{
+        margin: 10px 0;
+    	margin-left: 3%;
+        height: 70px;
+    	max-width: 280px;
+    	width: 45%;
+    }
+    .g-download{
+        font-size: 20px;
+        line-height: 70px;
+        width: 100%;
+        height: 100%;
+    }
+    .u{
+        position: absolute;
+        top: -50px;
+        left: 0;
+        width: 100%;
+        padding: 90px 0 0 0;
+    }
+    .w{
+        position: absolute;
+        width: 100%;
+        bottom: 45px;
+    }
+    .g-for{
+    	width: 88%;
+    }
+    .g-name{
+        font-size: 35px;
+        display: block;
+    }
+    .h{
+        position: absolute;
+        margin-left: 0;
+        line-height: 25px;
+        top: 23px;
+        left: 80px;
+    }
+    .x{
+    	display: none;
+    }
+    .m{
+    	display: none;
+    }
+    .s{
+        font-size: 12px;
+        margin-right: 10px;
+        margin-left: 6%;
+    }
+    .t{
+    	font-size: 12px;
+    }
+    .a{
+    	width: 40%;
+    	height: 80%;
+    	position: absolute;
+    	right: 3%;
+    	bottom: 45px;
+    	background-size: contain;
+    }
+    .i{
+    	width: 90%;
+    	height: 33%;
+        padding: 0;
+    }
+    .g:nth-child(1) .p {background: url(01.png) no-repeat 0px 0px;background-size: 400% auto;}
+    .g:nth-child(2) .p {background: url(01.png) no-repeat 33.3% 0px;background-size: 400% auto;}
+    .g:nth-child(3) .p {background: url(01.png) no-repeat 66.6% 0px;background-size: 400% auto;}
+    .g:nth-child(4) .p {background: url(01.png) no-repeat 100% 0px;background-size: 400% auto;}
+    .p{ 
+        background-size: 400% auto;
+        width: 80%;
+        height: 0;
+        padding-bottom: 80%;
+        margin: 20px auto 0;
+    }
+    .words{
+    	margin-top: 0;
+    	font-size: 14px;
+    }
+    .words:last-child{
+    	display: none;
+    }
+
+    footer{
+    	width: 100%;
+    	min-width: 0;
+    	height: 50px;
+    	line-height: 50px;
+    	font-size: 12px;
+    	position: absolute;
+        bottom: 0;
+    }
+
+
+
+}
